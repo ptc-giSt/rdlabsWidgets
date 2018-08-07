@@ -1,0 +1,64 @@
+{
+  "manifest_version": 1,
+  "name": "RD Labs Widgets",
+  "description": "",
+  "version": "1.0",
+  "ide": {
+    "libraries": [],
+    "angular_modules": [
+    ]
+  },
+  "runtime": {
+    "libraries": [
+      {
+        "name": "linq",
+        "script": "js/linq.js",
+        "includeInMainPage": true
+      }
+    ],
+    "angular_modules": [
+      {
+        "name": "incrementer-ng",
+        "script": "js/incrementer-ng.js",
+        "includeInMainPage": true
+      },  
+      {
+        "name": "pressuregauge-ng",
+        "script": "js/pressuregauge-ng.js",
+        "includeInMainPage": true
+      },  
+      {
+        "name": "flipflop-ng",
+        "script": "js/flipflop-ng.js",
+        "includeInMainPage": true
+      },      
+      {
+        "name": "spinner-ng",
+        "script": "js/spinner-ng.js",
+        "includeInMainPage": true
+      },
+      {
+        "name": "bouncer-ng",
+        "script": "js/bouncer-ng.js",
+        "includeInMainPage": true
+      },
+      {
+        "name": "finder-ng",
+        "script": "js/finder-ng.js",
+        "includeInMainPage": true
+      },  
+      {
+        "name": "tracer-ng",
+        "script": "js/tracer-ng.js",
+        "includeInMainPage": true
+      },
+      {
+        "name": "mapper-ng",
+        "script": "js/mapper-ng.js",
+        "includeInMainPage": true
+      }
+    ]
+  },
+  "themes": [
+  ]
+}
